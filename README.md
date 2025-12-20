@@ -1,27 +1,28 @@
 # Student Performance Analysis
 
 ## 📌 Objective
-Analyze student academic performance and identify factors influencing final grades.
+Analyze student academic performance and identify key factors influencing final grades.
 
 ## 📊 Dataset
 - Source: Kaggle – Student Performance Dataset
 - Records: 395 students
-- Features include demographics, lifestyle factors, and grades (G1, G2, G3)
+- Features include demographics, school factors, and grades (G1, G2, G3)
 
 ## 🛠️ Steps Performed
 - Loaded and explored the dataset
-- Performed data understanding and cleaning
-- Engineered an `average_score` feature using G1, G2, and G3
-- Conducted exploratory data analysis (EDA)
-- Visualized score distribution and gender-wise performance
+- Inspected data structure and statistics
+- Engineered a new feature `average_score` from G1, G2, G3
+- Performed exploratory data analysis (EDA)
+- Visualized performance distributions and gender differences
+- Extracted key insights
 
 ## 📈 Key Insights
-- Early grades (G1 and G2) strongly influence final grade (G3)
-- Average score provides a stable measure of academic performance
-- Female students slightly outperform male students on average
+- Early assessment scores strongly influence the final grade
+- Most students score in the middle range
+- Female students show a slightly higher median performance
 
 ## 🧰 Tools & Technologies
-Python, Pandas, Matplotlib, Seaborn, Jupyter Notebook
+Python, Pandas, Matplotlib, Seaborn, Kaggle Notebook
 
 ## 🔗 Kaggle Notebook
-https://www.kaggle.com/code/harshitha826/student-performance-analysis/edit
+https://www.kaggle.com/code/harshitha8426cpu/student-performance-analysis
